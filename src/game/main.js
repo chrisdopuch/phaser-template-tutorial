@@ -17,12 +17,12 @@ var state = {
         
     },
     preload: function() {
-        this.load.image("wall", "/assets/wall.png");
-        this.load.image("background", "/assets/background-texture.png");
-        this.load.spritesheet("player", "/assets/player.png", 48, 48);
-        this.load.audio("jet", "/assets/jet.wav");
-        this.load.audio("score", "/assets/score.wav");
-        this.load.audio("hurt", "/assets/hurt.wav");
+        this.load.image("wall", "assets/wall.png");
+        this.load.image("background", "assets/background-texture.png");
+        this.load.spritesheet("player", "assets/player.png", 48, 48);
+        this.load.audio("jet", "assets/jet.wav");
+        this.load.audio("score", "assets/score.wav");
+        this.load.audio("hurt", "assets/hurt.wav");
     },
     create: function(){
         // set up the physics system
